@@ -11,8 +11,11 @@
 |
 */
 
+use App\Models\Blog;
+
 Route::get('/', function () {
-    return view('welcome');
+    $blog = Blog::first();
+    return view('welcome', compact('blog'));
 });
 
 

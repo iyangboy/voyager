@@ -82,6 +82,7 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    {{-- <img src="{{Voyager::image($blog->thumbnail('small'))}}" /> --}}
                 </div>
 
                 <div class="links">
